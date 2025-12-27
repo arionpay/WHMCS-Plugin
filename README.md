@@ -12,10 +12,10 @@ This WHMCS gateway module lets your clients pay WHMCS invoices using **Arionpay*
 Upload these files into your WHMCS installation exactly as shown:
 
 - Gateway module:
-  - `modules/gateways/paymentdex.php`
+  - `modules/gateways/arionpay.php`
 
 - Callback / Webhook handler:
-  - `modules/gateways/callback/paymentdex.php`
+  - `modules/gateways/callback/arionpay.php`
 
 > Note: The module file name is `paymentdex.php` (internal module name: `paymentdex`). Keep it as-is unless you also rename and update references.
 
@@ -35,7 +35,7 @@ Save changes.
 ## Webhook / Callback Setup (Important)
 This module listens for payment webhooks at:
 
-`https://YOUR-WHMCS-DOMAIN.com/modules/gateways/callback/paymentdex.php`
+`https://YOUR-WHMCS-DOMAIN.com/modules/gateways/callback/arionpay.php`
 
 In your **Arionpay Dashboard → Store/Webhook settings**, set the webhook/callback URL to the address above.
 
