@@ -17,7 +17,7 @@ Upload these files into your WHMCS installation exactly as shown:
 - Callback / Webhook handler:
   - `modules/gateways/callback/arionpay.php`
 
-> Note: The module file name is `paymentdex.php` (internal module name: `paymentdex`). Keep it as-is unless you also rename and update references.
+> Note: The module file name is `arionpay.php` (internal module name: `arionpay`). Keep it as-is unless you also rename and update references.
 
 ## Activate & Configure in WHMCS
 1. Log in to **WHMCS Admin**
